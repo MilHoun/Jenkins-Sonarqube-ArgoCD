@@ -1,12 +1,12 @@
 # Jenkins-Sonarqube-ArgoCD
 Building a Java application in Jenkins using Docker as an agent, running static code analysis with Sonarqube, and deploying on Kubernetes using ArgoCD.
 
-Run the commands below to install Java and Jenkins on an Ubuntu Amazon EC2 instance.
+- Run the commands below to install Java and Jenkins on an Ubuntu Amazon EC2 instance.
 
 sudo apt update
 sudo apt install openjdk-17-jre
 
-Verify Java is Installed
+- Verify Java is Installed
 
 java -version
 
