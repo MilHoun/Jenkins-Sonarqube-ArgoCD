@@ -10,7 +10,7 @@ This is a MVC architecture based application where controller returns a page wit
 Checkout the repo and move to the directory
 
 ```
-git clone https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero/java-maven-sonar-argocd-helm-k8s/sprint-boot-app
+git clone https://github.com/MilHoun/Jenkins-Sonarqube-ArgoCD/java-maven-sonar-argocd-helm-k8s/sprint-boot-app
 cd java-maven-sonar-argocd-helm-k8s/sprint-boot-app
 ```
 
@@ -20,10 +20,10 @@ Execute the Maven targets to generate the artifacts
 mvn clean package
 ```
 
-The above maven target stroes the artifacts to the `target` directory. You can either execute the artifact on your local machine
+The above Maven target stores the artifacts in the `target` directory. You can either execute the artifact on your local machine
 (or) run it as a Docker container.
 
-** Note: To avoid issues with local setup, Java versions and other dependencies, I would recommend the docker way. **
+** Note: To avoid issues with local setup, Java versions, and other dependencies, I would recommend the Docker way. **
 
 
 ### Execute locally (Java 11 needed) and access the application on http://localhost:8080
@@ -68,5 +68,6 @@ cd /opt/sonarqube/bin/linux-x86-64
 ```
 
 Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000` 
+
 
 
